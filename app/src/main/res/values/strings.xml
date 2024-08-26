@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Login-form</string>
+    <string name="person_illustration">person_illustration</string>
 </resources>
