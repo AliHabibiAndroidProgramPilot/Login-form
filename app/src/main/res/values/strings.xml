@@ -12,4 +12,6 @@
     <string name="forget_password">Forget your password?</string>
     <string name="sign_in">Sign in</string>
     <string name="create_new_account">create new account</string>
+    <string name="continue_with">Or continue with</string>
+    <string name="ic_google">ic_google</string>
 </resources>

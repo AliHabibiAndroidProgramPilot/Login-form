@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        app:srcCompat="@drawable/ic_google"
+        app:maxImageSize="40dp"
+        app:tint="@color/black"
+        app:fabCustomSize="75dp"
+        app:shapeAppearanceOverlay="@style/fab_square"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:backgroundTint="@color/white"
+        app:elevation="0dp"
+        app:rippleColor="@color/rippleColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/ic_google" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        app:srcCompat="@drawable/ic_facebook"
+        app:maxImageSize="40dp"
+        app:tint="@color/black"
+        app:shapeAppearanceOverlay="@style/fab_square"
+        app:fabCustomSize="75dp"
+        app:backgroundTint="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:rippleColor="@color/rippleColor"
+        app:elevation="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/ic_google" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        app:srcCompat="@drawable/ic_apple"
+        app:maxImageSize="45dp"
+        app:tint="@color/black"
+        app:shapeAppearanceOverlay="@style/fab_square"
+        app:backgroundTint="@color/white"
+        app:elevation="0dp"
+        app:fabCustomSize="75dp"
+        app:rippleColor="@color/rippleColor"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/ic_google" />
+</LinearLayout>
