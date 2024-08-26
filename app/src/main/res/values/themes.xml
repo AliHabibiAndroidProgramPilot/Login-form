@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.login_form" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.login_form" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
@@ -18,5 +18,6 @@
         <item name="android:statusBarColor">@color/white</item>
         <!-- Font. -->
         <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:forceDarkAllowed" tools:ignore="NewApi">false</item>
     </style>
 </resources>

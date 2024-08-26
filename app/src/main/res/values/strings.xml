@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Login-form</string>
     <string name="person_illustration">person_illustration</string>
+    <string name="main_title">Discover Your Dream Job Here</string>
+    <string name="main_sub_title">Explore all the existing job roles based on your interest and study major</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
 </resources>
