@@ -13,4 +13,5 @@
     <color name="colorSecondaryVariant">#008FFF</color>
     <color name="colorError">#B00036</color>
     <color name="textTitleColor">#1F41BB</color>
+    <color name="textSecondaryColor">#494949</color>
 </resources>
