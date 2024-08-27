@@ -8,6 +8,13 @@
     android:orientation="vertical"
     android:layout_gravity="center_horizontal"
     tools:context=".LoginActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:navigationIcon="@drawable/ic_close"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
     <TextView
         android:textSize="30sp"
         android:textStyle="bold"

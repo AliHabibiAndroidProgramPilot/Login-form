@@ -1,9 +1,12 @@
+@file:Suppress("DEPRECATION")
+
 package com.ir.ali.login_form
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.MenuItem
 import android.widget.Toast
 import com.ir.ali.login_form.databinding.ActivityLoginBinding
 
@@ -13,6 +16,9 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        setSupportActionBar(binding.toolbar)
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+        supportActionBar!!.setDisplayShowTitleEnabled(false)
         binding.btnSignIn.setOnClickListener {
             val email: String = binding.editText1.text.toString().trim()
             val password: String = binding.editText2.text.toString().trim()
@@ -68,5 +74,15 @@ class LoginActivity : AppCompatActivity() {
         }
         binding.emailEdittext.error = null
         return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                onBackPressed()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }
