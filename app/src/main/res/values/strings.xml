@@ -14,4 +14,7 @@
     <string name="create_new_account">create new account</string>
     <string name="continue_with">Or continue with</string>
     <string name="ic_google">ic_google</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_account_welcome">Create an account so you can explore all the existing jobs</string>
+    <string name="confirm_password">Confirm Password</string>
 </resources>
