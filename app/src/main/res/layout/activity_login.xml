@@ -20,7 +20,7 @@
         android:textStyle="bold"
         android:textColor="@color/colorPrimary"
         android:text="@string/login_here"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -31,7 +31,7 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="15dp"
         android:layout_gravity="center_horizontal"
         android:layout_width="228dp"
         android:layout_height="wrap_content" />
@@ -42,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="31dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="40dp"
         android:hint="@string/email">
         <com.google.android.material.textfield.TextInputEditText
@@ -57,8 +57,8 @@
         android:id="@+id/passwordEdittext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="29dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
         android:layout_marginEnd="40dp"
         app:endIconMode="password_toggle"
         android:hint="@string/password">
@@ -96,7 +96,7 @@
         android:textColor="@color/textSecondaryColor"
         android:layout_gravity="center_horizontal"
         android:text="@string/create_new_account"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -106,10 +106,13 @@
         android:textSize="14sp"
         android:textColor="@color/colorPrimary"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <include layout="@layout/login_with_icons" />
+    <include
+        android:layout_gravity="center"
+        layout="@layout/login_with_icons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
