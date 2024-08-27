@@ -2,6 +2,8 @@ package com.ir.ali.login_form
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.widget.Toast
 import com.ir.ali.login_form.databinding.ActivityLoginBinding
 
@@ -28,6 +30,24 @@ class LoginActivity : AppCompatActivity() {
         else {
             if (password.length < 8) {
                 binding.passwordEdittext.error = "Password Should be more than 8 Character"
+                binding.passwordEdittext.isCounterEnabled = true
+                binding.passwordEdittext.counterMaxLength = 8
+                val textWatcher: TextWatcher = object : TextWatcher {
+                    override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+
+                    }
+
+                    override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+                    }
+
+                    override fun afterTextChanged(p0: Editable?) {
+                        if (binding.editText2.length() == binding.passwordEdittext.counterMaxLength) {
+                            binding.passwordEdittext.error = null
+                            binding.passwordEdittext.isCounterEnabled = false
+                        }
+                    }
+                }
+                binding.editText2.addTextChangedListener(textWatcher)
                 return false
             }
         }
