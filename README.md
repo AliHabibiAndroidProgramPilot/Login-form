@@ -23,5 +23,4 @@ This project focuses solely on UI development and does not implement any actual 
 * **Name:** [Tugane Amiel](https://www.figma.com/@toonation)
 
 ![Cover](https://i.postimg.cc/1zsjD0m4/cover.png)
-![Cover](https://i.postimg.cc/sX2HNVZr/cover2.png)
 
