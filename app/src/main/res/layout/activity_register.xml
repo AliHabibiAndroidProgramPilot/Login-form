@@ -88,19 +88,11 @@
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <TextView
-        android:textSize="14sp"
-        android:textColor="@color/colorPrimary"
-        android:text="@string/forget_password"
-        android:layout_gravity="center"
-        android:layout_margin="15dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_signIn"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginTop="20dp"
         android:layout_marginStart="31dp"
         android:layout_marginEnd="40dp"
         android:layout_gravity="center"
@@ -113,7 +105,7 @@
         android:textSize="14sp"
         android:textColor="@color/textSecondaryColor"
         android:layout_gravity="center_horizontal"
-        android:text="@string/create_new_account"
+        android:text="@string/have_account"
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -124,7 +116,7 @@
         android:textSize="14sp"
         android:textColor="@color/colorPrimary"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
