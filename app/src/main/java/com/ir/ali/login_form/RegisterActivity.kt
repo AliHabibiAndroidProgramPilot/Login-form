@@ -99,6 +99,7 @@ class RegisterActivity : AppCompatActivity() {
         return when (item.itemId) {
             android.R.id.home -> {
                 onBackPressed()
+                finish()
                 true
             }
             else -> super.onOptionsItemSelected(item)
